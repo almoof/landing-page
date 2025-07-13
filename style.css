@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  font-family: "Rubik", sans-serif;
+}
+
+.header-bg {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  padding: 0 24px 80px 24px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px;
+}
+
+.navigation h1 {
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.navigation ul {
+  list-style-type: none;
+  color: white;
+  display: flex;
+  gap: 8px;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: lightgray;
+}
+
+.navigation a:hover {
+  color: #adadad;
+}
+
+.about-me {
+  display: flex;
+  justify-content: space-between;
+  gap: 48px;
+}
+
+.about-me h1 {
+  color: white;
+  margin-bottom: 10px;
+}
+
+.about-me p {
+  color: lightgray;
+  max-width: 400px;
+  margin-bottom: 10px;
+}
+
+.about-me img {
+  border: 1px solid rgb(74, 86, 119);
+  border-radius: 5px;
+}
+
+.about-me button {
+  background-color: #0873ff;
+  padding: 10px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.about-me button:hover {
+  background-color: #0653b9;
+}
+
+.content {
+  flex: 1;
+}
+
