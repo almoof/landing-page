@@ -73,7 +73,7 @@ body {
 }
 
 .about-me img {
-  border: 1px solid rgb(74, 86, 119);
+  border: 1px solid #4a5677;
   border-radius: 5px;
 }
 
@@ -159,6 +159,42 @@ body {
 .contacts {
   background-color:#0873ff;
   padding: 32px;
-  border-radius: 10px;
+  border-radius: 5px;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 600px;
+}
+
+.contacts ul {
+  list-style-type: none;
+  color: white;
+  font-size: 18px;
+  display: flex;
+  gap: 12px;
+}
+
+.footer {
+  background-color: #1f2937;
+  padding: 32px;
+}
+
+.footer p {
+  color: white;
+  text-align: center;
+}
+
+.contacts button {
+  background-color: #0873ff;
+  border: 2px solid white;
+  padding: 10px;
+  color: white;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.contacts button:hover {
+  background-color: white;
+  color: #0873ff;
 }
