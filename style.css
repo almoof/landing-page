@@ -126,3 +126,39 @@ body {
   text-align: center;
 }
 
+.quote-bg {
+  background-color: rgb(238, 238, 238);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 24px;;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+}
+
+.quote p {
+  max-width: 600px;
+  font-size: 20px;
+  color: #464646;
+}
+
+.quote h4 {
+  text-align: end;
+}
+
+.contacts-bg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 24px;
+}
+
+.contacts {
+  background-color:#0873ff;
+  padding: 32px;
+  border-radius: 10px;
+  display: flex;
+}
